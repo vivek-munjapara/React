@@ -4,7 +4,8 @@ import './App.css';
 // import Displaydata from './All_Task/ex_01_usestate/Displaydata'
 // import Card from './All_Task/ex_02_readmore/Card'
 // import Slider from './All_Task/ex_03_slider/Slider'
-import DisplayValue from './All_Task/ex_04_CRUD/DisplayValue'
+// import DisplayValue from './All_Task/ex_04_CRUD/DisplayValue'
+import Reg from './All_Task/ex_05_formik_form/Reg';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     // <Displaydata/>
     // <Card/>
     // <Slider/>
-    <DisplayValue/>
+    // <DisplayValue/>
+    <Reg/>
     
 
 
