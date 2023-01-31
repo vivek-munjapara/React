@@ -14,12 +14,10 @@ export default function Reg() {
             .min(2, "Too sort!")
             .max(15, "Too long!")
             .required(' Please enter the First Name'),
-
         lastName: Yup.string()
             .min(2, "Too sort!")
             .max(15, "Too long!")
             .required(' Please enter the Last Name'),
-
         gender: Yup.string()
             .required(' Please select gender'),
         email: Yup.string()
