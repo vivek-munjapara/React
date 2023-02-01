@@ -5,7 +5,9 @@ import './App.css';
 // import Card from './All_Task/ex_02_readmore/Card'
 // import Slider from './All_Task/ex_03_slider/Slider'
 // import DisplayValue from './All_Task/ex_04_CRUD/DisplayValue'
-import Reg from './All_Task/ex_05_formik_form/Reg';
+// import Reg from './All_Task/ex_05_formik_form/Reg'
+import NormalDynamicForm from './All_Task/ex_06_dynamic_form/NormalDynamicForm'
+import FormikDynamicForm from './All_Task/ex_06_dynamic_form/FormikDynamicForm'
 
 function App() {
   return (
@@ -14,10 +16,11 @@ function App() {
     // <Card/>
     // <Slider/>
     // <DisplayValue/>
-    <Reg/>
+    // <Reg/>
+    <NormalDynamicForm/>
+    // <FormikDynamicForm />
     
-
-
+  
   );
 }
 
