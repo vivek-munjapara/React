@@ -17,10 +17,10 @@ import EmpCRUD from './EmpCRUD';
   
     return (
     <div>
-          <input type='text' onChange={(e) => setInpt(e.target.value)} />
-          <button onClick={srcData}>Search</button>
+          {/* <input type='text' onChange={(e) => setInpt(e.target.value)} />
+          <button onClick={srcData}>Search</button> */}
 
-          <DisplayEmpData item={srceData}/>
+          {/* <DisplayEmpData item={srceData}/> */}
 
     </div>
   )

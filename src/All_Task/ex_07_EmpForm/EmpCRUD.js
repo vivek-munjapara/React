@@ -38,7 +38,11 @@ export default function EmpCRUD({ item, remove }) {
                       <StyledTableCell align="center">{row.email}</StyledTableCell>
                       <StyledTableCell align="center">{row.mobilenumber}</StyledTableCell>
                       <StyledTableCell align="center">{row.dob}</StyledTableCell>
-                      <StyledTableCell align="center"><Button>Edit</Button><Button onClick={() => remove(index)}>Delete</Button></StyledTableCell>
+                      
+                      <StyledTableCell align="center">
+                          <Button>Edit</Button>
+                          <Button onClick={() => remove(index)}>Delete</Button>
+                      </StyledTableCell>
                   </StyledTableRow>
               ))}
           </TableBody>
