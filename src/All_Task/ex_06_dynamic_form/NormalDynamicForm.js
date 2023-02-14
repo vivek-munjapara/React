@@ -11,7 +11,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 
-export default function DynamicNoramal() {
+export default function NormalDynamicForm() {
 
     const eduLevel = ["Under Graduate", "Graduate", "Post Graduate", "PhD"];
 

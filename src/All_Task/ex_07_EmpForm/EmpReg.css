@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input {
+    margin: 5px;
+    width: 200px;
+    align-items: flex-start;
+}
+
+form button{
+width: 150px;
+margin: auto;
+}

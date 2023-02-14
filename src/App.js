@@ -6,8 +6,13 @@ import './App.css';
 // import Slider from './All_Task/ex_03_slider/Slider'
 // import DisplayValue from './All_Task/ex_04_CRUD/DisplayValue'
 // import Reg from './All_Task/ex_05_formik_form/Reg'
-import NormalDynamicForm from './All_Task/ex_06_dynamic_form/NormalDynamicForm'
-import FormikDynamicForm from './All_Task/ex_06_dynamic_form/FormikDynamicForm'
+// import RegFormikMaterial from './All_Task/ex_05_formik_form/RegFormikMaterial';
+// import RegWithDesignuseFormik from './All_Task/ex_05_formik_form/RegWithDesignuseFormik';
+// import FormikDynamicForm from './All_Task/ex_06_dynamic_form/FormikDynamicForm'
+// import NormalDynamicForm from './All_Task/ex_06_dynamic_form/NormalDynamicForm'
+import EmpReg from './All_Task/ex_07_EmpForm/EmpReg';
+// import File1 from './All_Task/Props/File1';
+// import Home from './All_Task/ex_08_Add_to_cart/Home';
 
 function App() {
   return (
@@ -16,9 +21,14 @@ function App() {
     // <Card/>
     // <Slider/>
     // <DisplayValue/>
-    // <Reg/>
-    <NormalDynamicForm/>
+    // <Reg />
+    // <RegFormikMaterial/>
+    // <RegWithDesignuseFormik />
     // <FormikDynamicForm />
+    // <NormalDynamicForm/>
+    <EmpReg />
+    // <File1/>
+    // <Home/>
     
   
   );
