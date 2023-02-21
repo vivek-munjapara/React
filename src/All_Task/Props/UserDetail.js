@@ -11,7 +11,6 @@ export default function UserDetail({ userData }) {
     <>
       
         <TableBody tbody={userData}></TableBody>
-        {/* <button className='btn-primary'>Save</button> */}
       
     </>
   )
