@@ -26,7 +26,7 @@ export default function ProductCard() {
         <div>
             {data.map((element, index) => {
                 return (
-                    <p key={index}>{element.title}<Button onClick={() => dlt(index)}>Delete</Button></p>
+                    <p key={index}>{element.title} <Button onClick={() => dlt(index)}>Delete</Button></p>
                 )
 
             })}
